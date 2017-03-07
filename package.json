@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base dist/"
+    "start": "webpack-dev-server --content-base dist/",
+    "build": "webpack --colors --progress"
   },
   "keywords": [],
   "author": "",
